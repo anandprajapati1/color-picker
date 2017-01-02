@@ -1,0 +1,32 @@
+{
+  "name": "color-picker",
+  "version": "1.0.0",
+  "description": "Simple coloe picker using Angular JS",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "start": "http-server -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandprajapati1/color-picker.git"
+  },
+  "keywords": [
+    "color-picker",
+    "colorpicker",
+    "angular"
+  ],
+  "author": "Anand Kumar Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anandprajapati1/color-picker/issues"
+  },
+  "homepage": "https://github.com/anandprajapati1/color-picker#readme"
+}
