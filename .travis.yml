@@ -5,15 +5,15 @@ node_js:
 node_js: 
   - node
 
-before_script:
-  - npm install -g gulp-cli
+# before_script:
+#   - npm install -g gulp-cli
   
 install: 
   - npm ci
 
 script: 
   - npm run lint
-  # - npm test
+  - npm run test:coveralls
   # - npm start
 
 notifications: 

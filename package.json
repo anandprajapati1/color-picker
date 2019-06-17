@@ -8,6 +8,7 @@
     "angular-route": "^1.6.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.4",
     "eslint": "^5.16.0",
     "http-server": "^0.11.1",
     "jshint": "^2.10.2"
@@ -15,7 +16,8 @@
   "scripts": {
     "lint": "eslint ./*.js",
     "start": "http-server -o",
-    "test": "jshint app.js"
+    "test": "jest",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
