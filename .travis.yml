@@ -12,8 +12,8 @@ install:
   - npm ci
 
 script: 
-  # - npm run lint
-  - npm test
+  - npm run lint
+  # - npm test
   # - npm start
 
 notifications: 
