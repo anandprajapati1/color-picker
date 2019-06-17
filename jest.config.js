@@ -184,5 +184,5 @@ module.exports = {
 
     // Whether to use watchman for file crawling
     // Watchman: true,
-    "verbose": true
+    'verbose': true
 };
