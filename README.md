@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/anandprajapati1/color-picker.svg?branch=master)](https://travis-ci.com/anandprajapati1/color-picker)
+
 # color-picker
 Simple color picker using Angular JS
 
